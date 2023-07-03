@@ -9,12 +9,12 @@ function BlogLists() {
 
   return (
     <div className="container mt-4">
-      <h2 className="mb-4">Blog Post</h2>
+      <h2 className="mb-4">Blog Posts</h2>
       {blogs.map((blog) => (
         <div className="card mb-3" key={blog.id.toString()}>
           <div className="card-body">
             <h3 className="card-title">
-              <strong>Title: </strong>
+              <strong>Blog Title: </strong>
               {blog.title}
             </h3>
             <p className="card-subtitle mb-2 text-muted">
