@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <Router>
+      <nav></nav>
       <div>
         <Routes>
           <Route path="/" element={<BlogList />} />
