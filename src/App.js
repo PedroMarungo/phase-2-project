@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import BlogList from "./components/BlogList";
+import BlogLists from "./components/BlogLists";
 import CreateBlog from "./components/CreateBlog";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -24,7 +24,7 @@ function App() {
       </nav>
       <div>
         <Routes>
-          <Route path="/" element={<BlogList />} />
+          <Route path="/" element={<BlogLists />} />
           <Route path="/create" element={<CreateBlog />} />
         </Routes>
       </div>

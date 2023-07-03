@@ -13,8 +13,14 @@ function BlogLists() {
       {blogs.map((blog) => (
         <div className="card mb-3" key={blog.id.toString()}>
           <div className="card-body">
-            <h3 className="card-title">{blog.title}</h3>
-            <h4 className="card-subtitle mb-2 text-muted">{blog.author}</h4>
+            <h3 className="card-title">
+              <strong>Title:</strong>
+              {blog.title}
+            </h3>
+            <h4 className="card-subtitle mb-2 text-muted">
+              <strong>Author:</strong>
+              {blog.author}
+            </h4>
             <p className="card-text">{blog.content}</p>
           </div>
         </div>
