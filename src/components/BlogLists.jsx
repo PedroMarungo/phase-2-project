@@ -17,11 +17,14 @@ function BlogLists() {
               <strong>Title:</strong>
               {blog.title}
             </h3>
-            <h4 className="card-subtitle mb-2 text-muted">
+            <p className="card-subtitle mb-2 text-muted">
               <strong>Author:</strong>
               {blog.author}
-            </h4>
-            <p className="card-text">{blog.content}</p>
+            </p>
+            <p className="card-text">
+              <strong>blog content: </strong>
+              {blog.content}
+            </p>
           </div>
         </div>
       ))}
