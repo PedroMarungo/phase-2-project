@@ -1,3 +1,16 @@
 {
-  "blogs": []
+  "blogs": [
+    {
+      "title": "Learning React",
+      "author": "Pedro Marungo",
+      "content": "learning react at flat iron school boot camp, so far is very interesting and complex.",
+      "id": 1
+    },
+    {
+      "title": "React DOM Router",
+      "author": "Pedro Marungo",
+      "content": "react dom router is use to navigate from one page to another via client side routing ",
+      "id": 2
+    }
+  ]
 }

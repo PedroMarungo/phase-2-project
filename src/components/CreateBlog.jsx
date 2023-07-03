@@ -10,7 +10,7 @@ function CreateBlog() {
 
     const newBlog = { title, author, content };
 
-    fetch("http://localhost:3000/blogs", {
+    fetch("https://blog-app-data.onrender.com/blogs", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
