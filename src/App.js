@@ -7,7 +7,11 @@ function App() {
   return (
     <Router>
       <nav>
-        <div className="container"></div>
+        <div className="container">
+          <Link className="navbar-brand" to="/">
+            Blog Post List
+          </Link>
+        </div>
       </nav>
       <div>
         <Routes>
