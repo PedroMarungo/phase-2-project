@@ -11,6 +11,12 @@
       "author": "Pedro Marungo",
       "content": "react dom router is use to navigate from one page to another via client side routing ",
       "id": 2
+    },
+    {
+      "title": "JavaScript is Awesome ",
+      "author": "Jim Jones",
+      "content": "this is a test",
+      "id": 3
     }
   ]
 }
