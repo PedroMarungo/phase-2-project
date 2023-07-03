@@ -7,7 +7,20 @@ function BlogLists() {
       .then((data) => setBlogs(data));
   }, []);
 
-  return <div>BlogLists</div>;
+  return (
+    <div className="container mt-4">
+      <h2 className="mb-4">Blog Post</h2>
+      {blogs.map((blog) => (
+        <div className="card mb-3" key={blog.id.toString()}>
+          <div className="card-body">
+            <h3 className="card-title">{blog.title}</h3>
+            <h4 className="card-subtitle mb-2 text-muted">{blog.author}</h4>
+            <p className="card-text">{blog.content}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
 }
 
 export default BlogLists;
