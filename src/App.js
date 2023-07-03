@@ -7,8 +7,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<BlogList />} />
-        <Route path="/create" element={<CreateBlog />} />
+        <div>
+          <Route path="/" element={<BlogList />} />
+          <Route path="/create" element={<CreateBlog />} />
+        </div>
       </Routes>
     </Router>
   );
