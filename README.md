@@ -2,6 +2,11 @@
 
 This is a simple React application for managing a blog. It allows users to view a list of blog posts and create new blog posts.
 
+## Demo Link
+https://incandescent-unicorn-0a15b0.netlify.app
+![image](https://github.com/PedroMarungo/phase-2-project/assets/34354163/7d70452f-6327-4d4c-aafe-671a70c50556)
+
+
 ## Features
 
 - View a list of blog posts
