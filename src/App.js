@@ -6,12 +6,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <Router>
-      <Routes>
-        <div>
+      <div>
+        <Routes>
           <Route path="/" element={<BlogList />} />
           <Route path="/create" element={<CreateBlog />} />
-        </div>
-      </Routes>
+        </Routes>
+      </div>
     </Router>
   );
 }
