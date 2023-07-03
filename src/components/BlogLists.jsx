@@ -14,11 +14,11 @@ function BlogLists() {
         <div className="card mb-3" key={blog.id.toString()}>
           <div className="card-body">
             <h3 className="card-title">
-              <strong>Title:</strong>
+              <strong>Title: </strong>
               {blog.title}
             </h3>
             <p className="card-subtitle mb-2 text-muted">
-              <strong>Author:</strong>
+              <strong>Author: </strong>
               {blog.author}
             </p>
             <p className="card-text">
