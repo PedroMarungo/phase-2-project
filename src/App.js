@@ -11,6 +11,15 @@ function App() {
           <Link className="navbar-brand" to="/">
             Blog Post List
           </Link>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <Link className="nav-link" to="/create">
+                  Create New Blog Post
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
       <div>
